@@ -12,7 +12,25 @@
       crossorigin
     ></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <title>ReactAppd</title>
+    <title>ReactApp</title>
   </head>
-  <body></body>
+  <body>
+<div id="root"></div>
+
+    <script type="text/babel">
+        const divRoot= document.querySelector("#root")
+        const h1Tag = <h1>Hola Mundo</h1>;
+
+        ReactDOM.render(h1Tag, divRoot);
+   
+     </script>
+   
+
+
+
+  
+
+
+
+  </body>
 </html>
